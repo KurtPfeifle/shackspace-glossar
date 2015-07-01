@@ -1,0 +1,6 @@
+*~
+*.mmd~
+markdown/*.mmd~
+*.epub
+
+
