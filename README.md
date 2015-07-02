@@ -23,7 +23,7 @@ export PATH=${HOME}/.cabal/bin:${PATH}
 cabal install pandoc pandoc-citeproc pandoc-csv2table
 ```
 
-## Kommando zum Erzeugen eines EPUB
+## Kommandos zum Erzeugen von EPUB, HTML, PDF und DokuWiki
 
 Dies ist der erste "quick'n'dirty" Wurf. Später wird das ein Makefile erledigen.
 
