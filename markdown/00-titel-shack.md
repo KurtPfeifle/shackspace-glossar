@@ -1,5 +1,5 @@
-% Das Grosse Shack-Glossar
-% Autoren: Mitglieder und Aktivsten aus dem Stuttgarter Hackerspace "shack"
+% Das Grosse *shack*-Glossar
+% Autoren: Mitglieder und Aktivisten aus dem Stuttgarter Hackerspace "shack"
 % Juli 2015
 
 
