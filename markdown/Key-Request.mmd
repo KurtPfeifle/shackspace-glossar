@@ -1,11 +1,88 @@
 ### Key-Request {#key-request .chapter .small .term}
 
-Hier fehlt noch DEIN Beitrag.  Hier fehlt noch DEIN Beitrag. Hier fehlt noch DEIN Beitrag.  Hier fehlt noch DEIN Beitrag. Hier fehlt noch DEIN Beitrag.  Hier fehlt noch DEIN Beitrag. Hier fehlt noch DEIN Beitrag.  Hier fehlt noch DEIN Beitrag.
+Mitglieder des [shack e.V.](#shack-e-v) können den Antrag auf einen "Schlüssel" (*Key Request*) stellen.
+
+Wir möchen jedem zahlenden [Mitglied](#mitglied) den rückhaltlosen 24/7-Zugang zum [shackspace](#shackspace) bieten, damit dort uneingeschränkt ihre Projekte und Experimente laufen können.
+Maximal offener Zugang für jedes Mitglied ist die eine Seite und unser Angebot an Dich. 
+
+Andererseits möchten wir aber sicher sein, dass jeder neue [Schlüsselbesitzer](#key-member) seinen Zugang verantwortungsvoll nutzt.
+Schlüsselgewalt bedeutet, dass man das [Hausrecht](#hausrecht) ausüben darf und ggf. auch ausüben  *muss*.
+Und dass man die Infrastruktur und die vorhandene Werkzeugen kennt und beherrscht.
+Echtes [Vertrauen](#vertrauen) in Dein [Verantwortungs-Bewusstsein](#verantwortungs-bewusstsein) ist die andere Seite der Schlüsselvergabe und unser Anspruch an Dich.
+
+Um den Zwiespalt von Offenheit vs. Vertrauen nachvollziehbar zu überbrücken, haben wir folgenden Prozess entwickelt:
+
+I.  **Auf- & Abschliessen.**
+    1. Kenne die Schritte, die beim [Aufschliessen](#aufschliessen) zu beachten sind.
+    1. Kenne die Schritte, die beim [Abschliessen](#abschliessen) zu beachten sind.
+    1. Anleitung zum Einrichten des [Keys](#key) auf verschiedenen Geräten (Laptop, Android, iPhone,...).
+    1. Dokumentation der [Portal-Hardware](#portal) findet man auf der [Projektseite von WHITE BOX](http://shackspace.de/wiki/doku.php?id=project:white_box).
+
+I.  **Die Voraussetzungen** -- Wie bekomme ich einen Key?
+    1. Werde Mitglied, zahle Deine Beiträge.
+       Schlüssel zum Space bekommen nur Mitglieder.
+    1. Mache Dich bekannt.
+        * Schaffe Dir eine Lobby.
+        * Trage zum Leben im shackspace bei.
+        * Sei oft und regelmäßig im Space.
+        * Werde namentlich bekannt.    
+       Wenn Du das nicht machst, gibts nicht wirklich Grund, einen Schlüssel zu beantragen.
+       Aktuell sind die Öffnungszeiten bereits sehr weit gefächert und wenn man bereits weiss, wann man in den Space möchte, einfach kurz auf <<mitglieder@lists.shackspace.de>> anfragen, ob jemand da ist oder da sein wird.
+       Kommt es öfters vor, dass Du vor verschlossener Türe stehst, ergibt es Sinn, einen eigenen Key zu beantragen.
+    1. Setze erfolgreich einen [Cleaning-Rage](#cleaning-rage) durch.^[Ein CR hilft, sich bekannt zu machen:
+       der shack erfordert auch Engagement wie aufräumen/putzen.
+       Das fördert soziale Interaktion.
+       Du schaffst es nicht einen CR durchzusetzen, aber Du meinst, das Hausrecht bei Bedarf schon?!]s.
+    1. Suche Dir einen Fürsprecher, der für Dich mit seinem Namen bürgen will und selbst schon [Key-Member](#key-member) ist.
+       Denn bei allen bekannt sein, skaliert nicht auf Dauer.
+       Daher suchst Du Dir einen Statusverstärker in Form des Fürsprechers.
+
+I.  **Frag einen Key an.**    
+   Generiere Dir ein 4096 bit RSA Key-Paar mit `'ssh-keygen'`.
+   Am besten vergibst Du auch ein Passwort für den Key:
+
+          ssh-keygen                           \
+             -b 4096                           \
+             -t rsa                            \
+             -N 'meinselbstgewaehltespasswort' \
+             -C 'user@dom.ain'                 \
+             -f ~/.ssh/shackspace
+
+    Formuliere Deine Anfrage und schicke Deinen *public* Key (das ist die Datei `~/.ssh/shackspace.pub`) als Anhang dazu an <<key@lists.shackspace.de>>.
+    (Du musst kein Mitglied der Liste sein, um an die Liste zu schreiben).
+
+I.  **Abstimmung durch bestehende Key-Member.**
+    1. Deine Anfrage wird diskutiert.
+    1. Key-Member können ein Veto einlegen.    
+       Die Veto-Möglichkeit besteht aus dem Grund, dass ein Mitglied mit Bedenken diese äußern kann.
+       Die Gründe hinter dem Veto werden dann innerhalb der Key-Members diskutiert.
+       Sollten Bedenken sich während des Diskussions-Prozesses klären, kann das Veto zurückgenommen werden.
+    1. Abstimmungsende ist 20 Uhr nach 5 Tagen.
+    1. Nach 5 Tage sollte Dir ein Ergebnis mitgeteilt werden:
+        i. Ergebnis ist *negativ*:    
+           Bei Ablehnung wird Dir dies mit samt Grund mitgeteilt.
+           Unter Umständen hat einfach ein Punkt aus 'Mache Dich bekannt' gefehlt.
+           Dies solltest Du vor einem erneuten Request nachholen.
+           Solltest Du nicht mit dem Ergebnis einverstanden sein und ein erneuter Request ist keine Option für Dich, kannst Du Deine Anfrage an's Plenum eskalieren.
+           Hier wird eine Anfrage nochmals offen diskutiert; Du solltest selbst anwesend sein!
+        i. Ergebnis ist *positiv*:    
+           Gab es keine Bedenken und Dein Fürsprecher hat für Dich gebürgt, wird Dein Key im Portal hinterlegt.
+           Du musst bei unserem Kassierer per Personalausweis Deinen echten Namen und Deine Adresse angeben.
+           Du wirst auf die key@lists.shackspace.de Liste hinzugefügt und kannst von nun an ueber folgende Key-Anfragen mitentscheiden.
+           Solltest Du keinen eigenen PUBLIC Key eingeschickt haben setze Dich bitte mit hadez in Kontakt zwecks Übergabe.
+
+I.  **Key-Weitergabe an Dritte.**    
+    Eine Weitergabe an Dritte ist nicht gestattet, selbst wenn diese Person selbst Mitglied ist.
+
+I.  **Fragen?**    
+    Hast Du Fragen zum Prozess, wende Dich bitte an Deine Mit-Mitglieder (<<mitglieder@lists.shackspace.de>>) oder an das [Plenum](#plenum).
+
 
 #### Siehe auch:
-[]() | 
-[]() | 
-[]() | 
+[Key](#key) | 
+[Key-Holder](#key-holder) | 
+[Key-Member](#key-member) | 
+[Portal](#portal) | 
 
 ----
 
