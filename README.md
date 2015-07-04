@@ -30,7 +30,7 @@ Dies ist der erste "quick'n'dirty" Wurf. Später wird das ein Makefile erledigen
 ```.bash
 cd markdown
 
-# EPUB3 erzeugen (noch ohne spezifisches CSS-Stylsheet) 
+# EPUB3 erzeugen (noch ohne spezifischess CSS-Stylsheet) 
 pandoc                                                              \
     --output=../vorschau-beispiele/shackspace-glossar.epub          \
     --to=epub3                                                      \
@@ -38,9 +38,24 @@ pandoc                                                              \
     --chapters                                                      \
     --epub-chapter-level=2                                          \
       00-titel-shack.md                                             \
+      01-index.md                                                   \
       *.mmd
 
-# HTML5 erzeugen (noch ohne spezifisches CSS-Stylsheet) 
+# HTML5 erzeugen (noch ohne spezifischess CSS-Stylsheet) 
+pandoc                                                              \
+    --output=../vorschau-beispiele/shackspace-glossar-mit-css.html  \
+    --to=html5                                                      \
+    --toc                                                           \
+    --chapters                                                      \
+    --epub-chapter-level=2                                          \
+    --self-contained                                                \
+    --css=../resources/github-pandoc.css                            \
+    --css=../resources/table.css                                    \
+      00-titel-shack.md                                             \
+      01-index.md                                                   \
+      *.mmd
+
+# HTML5 erzeugen (noch ohne spezifischess CSS-Stylsheet) 
 pandoc                                                              \
     --output=../vorschau-beispiele/shackspace-glossar.html          \
     --to=html5                                                      \
@@ -49,18 +64,7 @@ pandoc                                                              \
     --epub-chapter-level=2                                          \
     --standalone                                                    \
       00-titel-shack.md                                             \
-      *.mmd
-
-# HTML5 erzeugen (noch mit CSS-Stylsheet) 
-pandoc                                                              \
-    --output=../vorschau-beispiele/shackspace-glossar-mit-css.html  \
-    --to=html5                                                      \
-    --toc                                                           \
-    --chapters                                                      \
-    --epub-chapter-level=2                                          \
-    --self-contained                                                \
-    --css=my.css                                                    \
-      00-titel-shack.md                                             \
+      01-index.md                                                   \
       *.mmd
 
 # DokuWiki erzeugen
@@ -71,16 +75,33 @@ pandoc                                                              \
     --chapters                                                      \
     --epub-chapter-level=2                                          \
       00-titel-shack.md                                             \
+      01-index.md                                                   \
       *.mmd
 
-# PDF erzeugen
+# PDF erzeugen (A4, Porträt)
 pandoc                                                              \
-    --output=shackspace-glossar.pdf                                 \
+    --output=../vorschau-beispiele/shackspace-glossar-A4.pdf        \
     --toc                                                           \
     --chapters                                                      \
     --highlight-style=espresso                                      \
     -V geometry:"margin=2cm, paperwidth=595pt, paperheight=842pt"   \
       00-titel-shack.md                                             \
+      01-index.md                                                   \
+      *.mmd
+
+# PDF erzeugen (A5, Landscape)
+pandoc                                                              \
+    --output=../vorschau-beispiele/shackspace-glossar-A5q.pdf       \
+    --toc                                                           \
+    --chapters                                                      \
+    --highlight-style=espresso                                      \
+    --latex-engine=xelatex                                          \
+    -V geometry:"margin=1cm, paperwidth=595pt, paperheight=421pt"   \
+    -V fontsize:8pt                                                 \
+    -V classoption=twocolumn                                        \
+    -V linkcolor=blue                                               \
+      00-titel-shack.md                                             \
+      01-index.md                                                   \
       *.mmd
 ```
 
