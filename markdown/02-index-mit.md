@@ -1,7 +1,7 @@
 ### Index: Stichworte MIT Inhalten {#index-mit-inhalten}
 
 [\#shackspace](#shackspace-irc) | 
-[Besucher-Fuehrung](#besucher-fuehrung)
+[Besucher-Führung](#besucher-fuehrung)
 [CCC](#ccc) | 
 [CCCS](#cccs) | 
 [E-Lab](#e-lab) | 
@@ -28,13 +28,15 @@
 [RZ](#rz) | 
 [Rauch-Verbot](#rauch-verbot) | 
 [SHS](#shs) | 
-[Shack-Grundsätze](#shack-grundsaetze) | 
-[Shack-Labels](#shack-labels) | 
-[Shack-Soziale-Medien](#shack-soziale-medien) | 
-[Shack-Vorstand](#shack-vorstand) | 
-[Shack-e-V](#shack-e-v) | 
-[Shack](#shack) | 
-[Shackspace](#shackspace) | 
+[shack-Grundsätze](#shack-grundsaetze) | 
+[shack-Labels](#shack-labels) | 
+[shack-Soziale-Medien](#shack-soziale-medien) | 
+[shack-Verein](#shack-verein) | 
+[shack-Vorstand](#shack-vorstand) | 
+[shack e.V.](#shack-e-v) | 
+[shack](#shack) | 
+[shackspace](#shackspace) | 
+[Spül-Maschine](#spuel-maschine) | 
 [Shutdown](#shutdown) | 
 [Startup](#startup) | 
 [Steckdosen-Rote](#rote-steckdosen) | 

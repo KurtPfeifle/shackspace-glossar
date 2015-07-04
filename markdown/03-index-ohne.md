@@ -52,7 +52,7 @@
 [Getränke-Automat](#getraenke-automat) | 
 [Getränke-Lager](#getraenke-lager) | 
 [Getränke-Quellen](#getraenke-quellen) | 
-[Girokonto-des-shack-e.V.](#girokonto-des-shack-e.v.) | 
+[Girokonto des shack e.V.](#girokonto-des-shack-e.v.) | 
 [Gruppen](#gruppen) | 
 [Hacker-Space-API](#hacker-space-api) | 
 [Haus-Gemeinschaft](#haus-gemeinschaft) | 
@@ -65,7 +65,7 @@
 [ICal](#ical) | 
 [IRC](#irc) | 
 [Infrastruktur](#infrastruktur) | 
-[Internet-im-Shack](#internet-im-shack) | 
+[Internet im shack](#internet-im-shack) | 
 [Intranet](#intranet) | 
 [Kaffee-Maschine](#kaffee-maschine) | 
 [Key-Holder](#key-holder) | 
@@ -75,9 +75,9 @@
 [Kiosk](#kiosk) | 
 [Klima-Anlage](#klima-anlage) | 
 [Kochen](#kochen) | 
-[Kueche](#kueche) | 
-[Kuechen-Geräte](#kuechen-geraete) | 
-[Kuehlschrank](#kuehlschrank) | 
+[Küche](#kueche) | 
+[Küchen-Geräte](#kuechen-geraete) | 
+[Kühlschrank](#kuehlschrank) | 
 [LED-Leuchtkörper](#led-leuchtkoerper) | 
 [Lageplan](#lageplan) | 
 [Laser-Cutter](#laser-cutter) | 
@@ -89,7 +89,7 @@
 [Licht](#licht) | 
 [Löten](#loeten) | 
 [Lounge](#lounge) | 
-[Lueften](#lueften) | 
+[Lüften](#lueften) | 
 [Mailingliste](#mailingliste) | 
 [Mate-Mat](#mate-mat) | 
 [Media-Lab](#media-lab) | 
@@ -100,8 +100,8 @@
 [Mitglieds-Antrag](#mitglieds-antrag) | 
 [Mitglieds-Beitrag](#mitglieds-beitrag) | 
 [Mitmachen](#mitmachen) | 
-[Muell-Abholung](#muell-abholung) | 
-[Muell](#muell) | 
+[Müll-Abholung](#muell-abholung) | 
+[Müll](#muell) | 
 [Music-Player-Daemon](#music-player-daemon) | 
 [Musik](#musik) | 
 [Nachbarschaft](#nachbarschaft) | 
@@ -139,26 +139,24 @@
 [Satzung](#satzung) | 
 [Seminar-Raum](#seminar-raum) | 
 [Server-Raum](#server-raum) | 
-[Shack-Aufkleber](#shack-aufkleber) | 
-[Shack-Drucker](#shack-drucker) | 
-[Shack-Fuehrung](#shack-fuehrung) | 
-[Shack-Jargon](#shack-jargon) | 
-[Shack-Mailinglisten](#shack-mailinglisten) | 
-[Shack-Server](#shack-server) | 
-[Shack-Verein](#shack-verein) | 
-[Shackspace-Fuehrung](#shackspace-fuehrung) | 
-[Shackspace-Status](#shackspace-status) | 
+[shack-Aufkleber](#shack-aufkleber) | 
+[shack-Drucker](#shack-drucker) | 
+[shack-Fuehrung](#shack-fuehrung) | 
+[shack-Jargon](#shack-jargon) | 
+[shack-Mailinglisten](#shack-mailinglisten) | 
+[shack-Server](#shack-server) | 
+[shackspace-Fuehrung](#shackspace-fuehrung) | 
+[shackspace-Status](#shackspace-status) | 
 [Sicherheits-Hinweise](#sicherheits-hinweise) | 
 [Sicherungs-Kasten](#sicherungs-kasten) | 
 [Snack-O-Mat](#snack-o-mat) | 
 [Spenden](#spenden) | 
-[Sperr-Muell](#sperr-muell) | 
-[Spuel-Maschine](#spuel-maschine) | 
+[Sperr-Müll](#sperr-muell) | 
 [Stick-Maschine](#stick-maschine) | 
 [Strom-Kosten](#strom-kosten) | 
 [Strom-Verbrauch](#strom-verbrauch) | 
 [Strom](#strom) | 
-[Tag-der-Offenen-Tuer](#tag-der-offenen-tuer) | 
+[Tag der Offenen Tür](#tag-der-offenen-tuer) | 
 [Termin-Kalender](#termin-kalender) | 
 [Termine](#termine) | 
 [Terminkalender](#terminkalender) | 
@@ -174,7 +172,7 @@
 [Vertrauen](#vertrauen) | 
 [Vorrats-Check-Listen](#vorrats-check-listen) | 
 [Vorträge](#vortraege) | 
-[WLAN-im-Shack](#wlan-im-shack) | 
+[WLAN im shack](#wlan-im-shack) | 
 [Waschmaschine](#waschmaschine) | 
 [Wasser-Kocher](#wasser-kocher) | 
 [Werkstatt](#werkstatt) | 

@@ -8,7 +8,7 @@
          I=$(echo "${i}" | tr "[A-Z]" "[a-z]")
          echo "### ${i} {#${I} .chapter .small .term}" > "${i}.mmd" ;
          echo ""                                      >> "${i}.mmd" ;
-         echo 'TO BE DONE... Hier fehlt noch DEIN Beitrag.  Hier fehlt noch DEIN Beitrag. Hier fehlt noch DEIN Beitrag.  Hier fehlt noch DEIN Beitrag. Hier fehlt noch DEIN Beitrag.  Hier fehlt noch DEIN Beitrag. Hier fehlt noch DEIN Beitrag.  Hier fehlt noch DEIN Beitrag.' \
+         echo 'TO BE DONE... ![Fortschrittsbalken shackspace-Glossar](../images/glossary-progress.png "Fortschrittsbalken shackspace-Glossar") Hier fehlt noch DEIN Beitrag.  Hier fehlt noch DEIN Beitrag. Hier fehlt noch DEIN Beitrag.  Hier fehlt noch DEIN Beitrag. Hier fehlt noch DEIN Beitrag.  Hier fehlt noch DEIN Beitrag. Hier fehlt noch DEIN Beitrag.  Hier fehlt noch DEIN Beitrag.' \
                                                      >> "${i}.mmd"  ;
         echo ""                                      >> "${i}.mmd"  ;
         echo "#### Siehe auch:"                      >> "${i}.mmd"  ;
@@ -35,19 +35,3 @@
 #   echo "## ${z} {#${z} .section .character .big .chargroup}"    > "${z}.mmd" ;
 #   echo ""                                                      >> "${z}.mmd"  ;
 #done
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#

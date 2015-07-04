@@ -200,7 +200,7 @@
 [shack-Mailinglisten](#shack-mailinglisten) | 
 [shack-Server](#shack-server) | 
 [shack in Sozialen Medien](#shack-soziale-medien) | 
-[Shack-Verein](#shack-verein) | 
+[shack-Verein](#shack-verein) | 
 [shack-Vorstand](#shack-vorstand) | 
 [shack e.V.](#shack-e-v) | 
 [shack](#shack) | 
@@ -238,7 +238,7 @@
 [Vorrats-Check-Listen](#vorrats-check-listen) | 
 [Vorstand](#vorstand) | 
 [Vorträge](#vortraege) | 
-[WLAN-im-Shack](#wlan-im-shack) | 
+[WLAN im shack](#wlan-im-shack) | 
 [Wäschekorb](#waeschekorb) | 
 [Waschmaschine](#waschmaschine) | 
 [Wasser-Kocher](#wasser-kocher) | 

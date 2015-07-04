@@ -9,6 +9,11 @@ Daraus kann später ein komplettes Dokument als HTML, Wiki, PDF, EPUB oder was-a
 Manche Stichworte sind noch leer.
 Regelmässige Besucher und Nutzer des shack sind herzlich eingeladen, beim weiteren Befüllen der Lücken mitzuhelfen.
 
+## Aktueller Fortschritt
+
+Derzeitiger Stand des Projekts: ca. 19% fertig.
+
+![*Das shackspace-Glossar ist zu ca. 19% fertig.*](images/glossary-progress-big.png "*Das shackspace-Glossar ist zu ca. 19% fertig.*")
 
 ## Pandoc-Installation
 
@@ -23,6 +28,9 @@ export PATH=${HOME}/.cabal/bin:${PATH}
 cabal install pandoc pandoc-citeproc pandoc-csv2table
 ```
 
+Obige Vorgehensweise installiert die neuesten Versionen nach `${HOME}/.cabal/`.
+Sie lässt die System-eigenen Pakete in Ruhe und fasst sie nicht an.
+
 ## Kommandos zum Erzeugen von EPUB, HTML, PDF und DokuWiki
 
 Dies ist der erste "quick'n'dirty" Wurf. Später wird das ein Makefile erledigen.
@@ -35,8 +43,9 @@ pandoc                                                              \
     --output=../vorschau-beispiele/shackspace-glossar.epub          \
     --to=epub3                                                      \
     --toc                                                           \
-    --chapters                                                      \
-    --epub-chapter-level=2                                          \
+    --base-header-level=1                                           \
+    --indented-code-classes=bash                                    \
+    --epub-chapter-level=1                                          \
       00-titel-shack.md                                             \
       01-index.md                                                   \
       02-index-mit.md                                               \
@@ -48,8 +57,8 @@ pandoc                                                              \
     --output=../vorschau-beispiele/shackspace-glossar.html          \
     --to=html5                                                      \
     --toc                                                           \
-    --chapters                                                      \
-    --epub-chapter-level=2                                          \
+    --base-header-level=1                                           \
+    --indented-code-classes=bash                                    \
     --standalone                                                    \
       00-titel-shack.md                                             \
       01-index.md                                                   \
@@ -62,8 +71,8 @@ pandoc                                                              \
     --output=../vorschau-beispiele/shackspace-glossar-mit-css.html  \
     --to=html5                                                      \
     --toc                                                           \
-    --chapters                                                      \
-    --epub-chapter-level=2                                          \
+    --base-header-level=1                                           \
+    --indented-code-classes=bash                                    \
     --self-contained                                                \
     --css=../resources/github-pandoc.css                            \
     --css=../resources/table.css                                    \
@@ -78,8 +87,8 @@ pandoc                                                              \
     --output=../vorschau-beispiele/shackspace-glossar.dokuwiki      \
     --to=dokuwiki                                                   \
     --toc                                                           \
-    --chapters                                                      \
-    --epub-chapter-level=2                                          \
+    --base-header-level=1                                           \
+    --indented-code-classes=bash                                    \
       00-titel-shack.md                                             \
       01-index.md                                                   \
       02-index-mit.md                                               \
@@ -90,8 +99,12 @@ pandoc                                                              \
 pandoc                                                              \
     --output=../vorschau-beispiele/shackspace-glossar-A4.pdf        \
     --toc                                                           \
+    --base-header-level=1                                           \
+    --indented-code-classes=bash                                    \
     --chapters                                                      \
     --highlight-style=espresso                                      \
+    --latex-engine=xelatex                                          \
+    -H ../resources/setmainfont-sourcesansprolight.tex              \
     -V geometry:"margin=2cm, paperwidth=595pt, paperheight=842pt"   \
       00-titel-shack.md                                             \
       01-index.md                                                   \
@@ -103,12 +116,14 @@ pandoc                                                              \
 pandoc                                                              \
     --output=../vorschau-beispiele/shackspace-glossar-A5q.pdf       \
     --toc                                                           \
+    --base-header-level=1                                           \
+    --indented-code-classes=bash                                    \
     --chapters                                                      \
     --highlight-style=espresso                                      \
     --latex-engine=xelatex                                          \
     -V geometry:"margin=1cm, paperwidth=595pt, paperheight=421pt"   \
-    -V fontsize:8pt                                                 \
-    -V classoption=twocolumn                                        \
+    -V fontsize:10pt                                                \
+    -V classoption=onecolumn                                        \
     -V linkcolor=blue                                               \
       00-titel-shack.md                                             \
       01-index.md                                                   \
