@@ -9,7 +9,14 @@ Daraus kann später ein komplettes Dokument als HTML, Wiki, PDF, EPUB oder was-a
 Manche Stichworte sind noch leer.
 Regelmässige Besucher und Nutzer des shack sind herzlich eingeladen, beim weiteren Befüllen der Lücken mitzuhelfen.
 
-## Aktueller Fortschritt
+## Vorschau
+
+Wie das fertige Produkt mal aussehen könnte, ist anhand der verfügbaren Vorschau-Dokumente zu erahnen:
+
+* [Vorschau-Dokumente: PDF, HTML, EPUB](https://github.com/shackspace/shackspace-glossar/tree/master/vorschau-beispiele)
+
+
+## Aktueller Stand
 
 Derzeitiger Stand des Projekts: ca. 19% fertig.
 
