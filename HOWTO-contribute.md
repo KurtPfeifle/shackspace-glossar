@@ -9,5 +9,13 @@
     * Benutze keine Umlaute im Dateinamen ('ä', 'ü', 'ö', 'Ä', 'Ü', 'Ö' oder 'ß'). (Innerhalb des Textes kannst Du Umlaute durchaus verwenden.)
     * Benutze keine Umlaute in den *Labels* für die Konstruktion von Links und Verweisen. Die sollen also so aussehen: `(#schluessel-uebergabe)`, nicht `(#schlüssel-übergabe)`.
     * Benutze keine Groß-Buchstaben in den Labels zur Konstruktion von Links und Verweisen. Also so: `(#schluessel-uebergabe)`, nicht so: `(#Schluessel-Uebergabe)`.
+   
+   Du kannst den Eintrag `Dummy.mmd` als Template verwenden, um ein neues Stichwort anzulegen.
+
+   Du kannst auch das Mini-Skript `create-entry-skeleton.sh` verwenden, um mehrere Stichworte anzulegen:
+   
+        bash create-entry-skeleton.sh Stichwort-1 Stichwort-2 Stichwort-3
+
+
 
 
