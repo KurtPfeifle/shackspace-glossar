@@ -1,0 +1,211 @@
+/* FefePedia by BenBE*/
+
+body {
+	margin: 2.8em 0 0 12.2em;
+	padding: 0 1em 1em 1em;
+	position: relative;
+	z-index: 2;
+}
+#column-one {
+	padding-top: 160px;
+}
+body {
+	background: white;
+	color: black;
+	border: 1px solid #aaa;
+	border-right: none;
+	line-height: 1.5em;
+}
+
+html {
+	font: small sans-serif;
+	background: #f9f9f9 url("http://de.wikipedia.org/skins-1.5/monobook/headbg.jpg") 0 0 no-repeat;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+** keep the whitespace in front of the ^=, hides rule from konqueror
+** this is css3, the validator doesn't like it when validating as css2
+*/
+a {
+text-decoration: none;
+}
+a,
+a[href ^="gopher://"] {
+	background: url("http://de.wikipedia.org/skins-1.5/monobook/external.png") center right no-repeat;
+	padding: 0 13px 0 0;
+}
+a[href ^="https://"],
+.link-https {
+	background: url("http://de.wikipedia.org/skins-1.5/monobook/lock_icon.gif") center right no-repeat;
+	padding: 0 16px 0 0;
+}
+a[href ^="mailto:"],
+.link-mailto {
+	background: url("http://de.wikipedia.org/skins-1.5/monobook/mail_icon.gif") center right no-repeat;
+	padding: 0 18px 0 0;
+}
+a[href ^="news://"] {
+	background: url("http://de.wikipedia.org/skins-1.5/monobook/news_icon.png") center right no-repeat;
+	padding: 0 18px 0 0;
+}
+a[href ^="ftp://"],
+.link-ftp {
+	background: url("http://de.wikipedia.org/skins-1.5/monobook/file_icon.gif") center right no-repeat;
+	padding: 0 18px 0 0;
+}
+a[href ^="irc://"],
+.link-irc {
+	background: url("http://de.wikipedia.org/skins-1.5/monobook/discussionitem_icon.gif") center right no-repeat;
+	padding: 0 18px 0 0;
+}
+a[href $=".ogg"], a[href $=".OGG"],
+a[href $=".mid"], a[href $=".MID"],
+a[href $=".midi"], a[href $=".MIDI"],
+a[href $=".mp3"], a[href $=".MP3"],
+a[href $=".wav"], a[href $=".WAV"],
+a[href $=".wma"], a[href $=".WMA"],
+.link-audio {
+	background: url("http://de.wikipedia.org/skins-1.5/monobook/audio.png") center right no-repeat;
+	padding: 0 13px 0 0;
+}
+a[href $=".ogm"], a[href $=".OGM"],
+a[href $=".avi"], a[href $=".AVI"],
+a[href $=".mpeg"], a[href $=".MPEG"],
+a[href $=".mpg"], a[href $=".MPG"],
+.link-video {
+	background: url("http://de.wikipedia.org/skins-1.5/monobook/video.png") center right no-repeat;
+	padding: 0 13px 0 0;
+}
+a[href $=".pdf"], a[href $=".PDF"],
+a[href *=".pdf#"], a[href *=".PDF#"],
+a[href *=".pdf?"], a[href *=".PDF?"],
+.link-document {
+	background: url("http://de.wikipedia.org/skins-1.5/monobook/document.png") center right no-repeat;
+	padding: 0 12px 0 0;
+}
+
+a[href ^="http://blog.fefe.de/"], a[href ^="https://blog.fefe.de/"], a[href ^="?"], a[href ^="/"] {
+	background: url("") center right no-repeat;
+	padding: 0 0 !important;
+}
+
+li a[href ^="?ts="] {
+    display: none;
+}
+
+/*
+** Section Headings
+*/
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+	background: none;
+	font-weight: normal;
+	margin: 0;
+	padding-top: .5em;
+	padding-bottom: .17em;
+	border-bottom: 1px solid #aaa;
+}
+h1 { font-size: 188%; }
+h1 .editsection { font-size: 53%; }
+h2 { font-size: 150%; }
+h2 .editsection { font-size: 67%; }
+h3 { font-size: 132%; }
+h3 .editsection { font-size: 76%; }
+h4, h5, h6 {
+	border-bottom: none;
+	font-weight: bold;
+}
+h4 { font-size: 116%; }
+h4 .editsection { font-size: 86%; font-weight: normal; }
+h5 { font-size: 100%; }
+h5 .editsection { font-weight: normal; }
+h6 { font-size: 80%;  }
+h6 .editsection { font-size: 125%; font-weight: normal; }
+
+h1:after, h2:after, h3:after {
+    content:'[Löschen]';
+    float:right;
+    align:right;
+}
+
+/*
+** Logo properties
+*/
+
+#p-logo {
+	top: 0;
+	left: 0;
+	position: absolute; /*needed to use z-index */
+	z-index: 3;
+	height: 155px;
+	width: 12em;
+	overflow: visible;
+}
+#p-logo h5 {
+	display: none;
+}
+#p-logo a,
+#p-logo a:hover {
+	display: block;
+	height: 155px;
+	width: 12.2em;
+	background-repeat: no-repeat;
+	background-position: 35% 50% !important;
+	text-decoration: none;
+	background-image: url(http://upload.wikimedia.org/wikipedia/de/b/bc/Wiki.png);
+}
+
+/*
+** Code Blocks
+*/
+
+blockquote {
+	font-family: Times, "Times New Roman", serif;
+	font-style: italic;
+}
+code {
+	background-color: #f9f9f9;
+}
+pre {
+	padding: 1em;
+	border: 1px dashed #2f6fab;
+	color: black;
+	background-color: #f9f9f9;
+	line-height: 1.1em;
+}
+
+
+body > b {
+    font-size:0pt;
+}
+body > b:after {
+    content:"Ungeprüfte Lemmata an felix-bloginput (at) fefe.de";
+    font-size:12pt;
+}
+
+p[align="right"] {
+    display:none;
+}
+
+/*
+** Footer
+*/
+div[align="right"] {
+	background-color: white;
+	border-top: 1px solid #fabd23;
+	border-bottom: 1px solid #fabd23;
+	margin: .6em 0 1em 0;
+	padding: .4em 0 1.2em 0;
+	text-align: center;
+	font-size: 90%;
+}
+
+
+/*
+body:after {
+    content:'<div class="portlet" id="p-logo"><a href="/" title="Hauptseite"></a></div>';
+}
+*/

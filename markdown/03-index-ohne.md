@@ -134,7 +134,6 @@
 [Rauchverbot](#rauchverbot) | 
 [Rechen-Zentrum](#rechen-zentrum) | 
 [Repair-Cafe](#repair-cafe) | 
-[Rote-Steckdosen](#rote-steckdosen) | 
 [Saturday-Hack-Sessions](#saturday-hack-sessions) | 
 [Satzung](#satzung) | 
 [Seminar-Raum](#seminar-raum) | 
