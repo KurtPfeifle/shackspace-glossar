@@ -27,7 +27,8 @@
 [OR5](#or5) | 
 [RZ](#rz) | 
 [Rauch-Verbot](#rauch-verbot) | 
-[Rote-Steckdosen](#rote-steckdosen) | 
+[Repair-Cafe](#repair-cafe) | 
+[Rote Steckdosen](#rote-steckdosen) | 
 [SHS](#shs) | 
 [shack-Grundsätze](#shack-grundsaetze) | 
 [shack-Labels](#shack-labels) | 
@@ -40,8 +41,10 @@
 [Spül-Maschine](#spuel-maschine) | 
 [Shutdown](#shutdown) | 
 [Startup](#startup) | 
-[Steckdosen-Rote](#rote-steckdosen) | 
+[Steckdosen, Rote](#rote-steckdosen) | 
 [Toiletten-Papier](#toiletten-papier) | 
 [Toiletten](#toiletten) | 
 [Vorstand](#vorstand) | 
 [Wäschekorb](#waeschekorb) | 
+[Workshop Python](#workshop-python) | 
+[Workshops](#workshops) | 

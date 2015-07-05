@@ -133,7 +133,6 @@
 [Rauchen](#rauchen) | 
 [Rauchverbot](#rauchverbot) | 
 [Rechen-Zentrum](#rechen-zentrum) | 
-[Repair-Cafe](#repair-cafe) | 
 [Saturday-Hack-Sessions](#saturday-hack-sessions) | 
 [Satzung](#satzung) | 
 [Seminar-Raum](#seminar-raum) | 
@@ -178,8 +177,6 @@
 [Werkzeug-Einweisung](#werkzeug-einweisung) | 
 [Werkzeuge](#werkzeuge) | 
 [Wiki](#wiki) | 
-[Workshop-Cypherpunks](#workshop-cypherpunks) | 
-[Workshop-Python](#workshop-python) | 
-[Workshops](#workshops) | 
+[Workshop Cypherpunks](#workshop-cypherpunks) | 
 [Wunschliste](#wunschliste) | 
 [Zugangs-Berechtigung](#zugangs-berechtigung) | 
