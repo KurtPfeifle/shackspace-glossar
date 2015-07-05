@@ -1,0 +1,114 @@
+@font-face 
+{
+	font-family:"topaz";
+	src: url(../resources/topaz1200dmg.eot);
+}
+
+@font-face
+{
+	font-family:"topaz";
+	src: url(../resources/topaz1200dmg.woff) format("woff"),
+	url(../resources/topaz1200dmg.ttf) format("truetype");
+}
+
+* {
+	font-family:"topaz";
+	font-size: 12pt;
+	background: black;
+	color: #00cccc;
+	cursor: url(../resources/amiga.gif), default;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+h2 {
+        font-size: 22px;
+        color: red;
+}
+
+h3 {
+        font-size: 16px;
+        color: red;
+}
+
+body > h3 {
+	counter-reset:m;
+	counter-increment:t;
+}
+
+body > ul > li {
+	counter-increment:m;
+	list-style-type:none;
+	margin-top: 12pt;
+}
+
+body > ul > li > a:first-child {
+	color: #000000;
+}
+
+body > ul > li:before {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #ff0;
+  background-color: #088;
+  background-image: url(../resources/scanlines.png);
+  content: "fefeblg" counter(t) "_" counter(m) ".txt: -----------------------------------------------------------------------------------------------------------------------------------------------------------------";
+}
+
+body > ul > li > a:first-child:before {
+	content:"-->";
+	color: #990099;
+}
+
+blockquote:before {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #ff0;
+  background-color: #00f;
+  background-image: url(../resources/scanlines.png);
+  content: "-----------------------------------------------------< schnipp >-----------------------------------------------------------------------------------------------------------------------------------------------";
+}
+
+blockquote:after {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #ff0;
+  background-color: #00f;
+  background-image: url(../resources/scanlines.png);
+  content: "-----------------------------------------------------< schnapp >-----------------------------------------------------------------------------------------------------------------------------------------------";
+}
+
+blockquote {
+	background-color: #008;
+	background-image: url(../resources/scanlines.png);
+}
+
+blockquote > * {
+	background-color: #008;
+	background-image: url(../resources/scanlines.png);
+}
+
+
+b {
+	color: #eeee44;
+}
+
+i {
+	color: #00aa00;
+}
+
+pre {
+	color: #aa5500;
+}
+
