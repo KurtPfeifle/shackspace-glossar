@@ -80,8 +80,8 @@ pandoc                                                              \
     --toc                                                           \
     --base-header-level=1                                           \
     --indented-code-classes=bash                                    \
-    --self-contained                                                \
-    --css=../resources/github-pandoc.css                            \
+    --standalone                                                    \
+    --css=../resources/symlink.css                                  \
     --css=../resources/table.css                                    \
       00-titel-shack.md                                             \
       01-index.md                                                   \
